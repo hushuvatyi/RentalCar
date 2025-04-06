@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 120px;
+    background-color: var(--wery-light-grey);
+}
+
+.logo {
+    width: 101px;
+    height: 16px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 24px 0;
+}
+
+.link {
+    transition-property: color, background-color, transform;
+    transition-duration: 0.2s;
+    transition-timing-function: var(--animation-cubicBezier);
+    transform: scale(0.9);
+}
+
+.active {
+    color: var(--blue);
+}
+
